@@ -22,7 +22,7 @@ const Hero = ({}: Props) => {
       <div className="relative h-32 w-32 mx-auto ">
         <Image
           src="/../public/profilePic.jpg"
-          alt=""
+          alt="Handsome Face?"
           fill
           priority
           style={{ objectFit: "cover" }}
