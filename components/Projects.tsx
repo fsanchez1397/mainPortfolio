@@ -5,6 +5,44 @@ import { motion } from "framer-motion";
 type Props = {};
 
 function Projects({}: Props) {
+  const projects = [
+    {
+      title: "Pokemon Team Tracker",
+      summary:
+        "A website used to register pokemon teams. each team has a trainer and a set amount of pokemon they can add. After submission you can view the teams in the teams page.",
+      technologyUsed: ["Redux-toolkit", "React Router", "React", "Tailwind"],
+      selfImg: "/../public/profilePic.PNG",
+      projImg: "/../public/pokeProj.PNG",
+    },
+    {
+      title: "Airbnb Remake",
+      summary:
+        "Clone of Airbnb website. Used and implemented various resources to create a functionally similair website to Airbnb. Opens up a map with location of houses near search area.",
+      technologyUsed: [
+        "Next.js",
+        "Rest APIs",
+        "Github Repos",
+        "Hero Icons",
+        "Tailwind",
+      ],
+      selfImg: "/../public/aboutPic.PNG",
+      projImg: "/../public/airbnbProj.PNG",
+    },
+    {
+      title: "Individual Porfolio Website",
+      summary:
+        "Main Website used to attract and display my coding ability to other developers and recruiters. Implents a SPA layout with scrolling and links to some of my profiles on the top left :)",
+      technologyUsed: [
+        "Smooth-Scrolling",
+        "Next.js",
+        "Framer Motion",
+        "Tailwind",
+        "TypeWriter",
+      ],
+      selfImg: "/../public/aboutPic.JPG",
+      projImg: "/../public/portfolioProj.PNG",
+    },
+  ];
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -16,9 +54,17 @@ function Projects({}: Props) {
         Experience
       </h3>
       <div className="  w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
-        <ProjCard />
-        <ProjCard />
-        <ProjCard />
+        {projects.map((project) => {
+          return (
+            <ProjCard
+              title={project.title}
+              summary={project.summary}
+              technologyUsed={project.technologyUsed}
+              selfImg={project.selfImg}
+              projImg={project.projImg}
+            />
+          );
+        })}
       </div>
     </motion.div>
   );
