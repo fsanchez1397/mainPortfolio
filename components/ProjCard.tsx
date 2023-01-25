@@ -6,11 +6,10 @@ type Props = {
   title: string;
   summary: string;
   technologyUsed: string[];
-  selfImg: string;
-  projImg: string;
+  projImg: { src: string };
 };
 
-function ProjCard({ title, summary, technologyUsed, selfImg, projImg }: Props) {
+function ProjCard({ title, summary, technologyUsed, projImg }: Props) {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 transition-opacity duration-200 overflow-hidden">
       {/* CARD PROJ IMAGE */}
@@ -22,7 +21,7 @@ function ProjCard({ title, summary, technologyUsed, selfImg, projImg }: Props) {
         className="relative w-32 h-32 "
       >
         <Image
-          src={projImg}
+          src={projImg.src}
           alt="Project FrontEnd"
           fill
           style={{ objectFit: "cover" }}
