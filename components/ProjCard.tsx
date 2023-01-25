@@ -33,17 +33,7 @@ function ProjCard({ title, summary, technologyUsed, selfImg, projImg }: Props) {
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">{title}</h4>
         <p className="font-bold text-2xl mt-1">By Felipe</p>
-        <div className="flex space-x-2 my-2">
-          <div className="relative h-10 w-10">
-            <Image
-              src={selfImg}
-              alt="Tech Icon"
-              fill
-              style={{ objectFit: "cover" }}
-              className="rounded-full"
-            />
-          </div>
-        </div>
+
         {/* SUMMARY */}
         <p className="py-5 text-gray-300 uppercase">{summary}</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
