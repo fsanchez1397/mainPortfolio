@@ -1,7 +1,6 @@
 import React from "react";
 import ProjCard from "./ProjCard";
 import { motion } from "framer-motion";
-import aboutPic from "../public/aboutPic.jpg";
 import airbnbPic from "../public/airbnbProj.png";
 import pokePic from "../public/pokeProj.png";
 import portfolioPic from "../public/portfolioProj.png";
