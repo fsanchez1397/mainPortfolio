@@ -14,7 +14,6 @@ function Projects({}: Props) {
       summary:
         "A website used to register pokemon teams. each team has a trainer and a set amount of pokemon they can add. After submission you can view the teams in the teams page.",
       technologyUsed: ["Redux-toolkit", "React Router", "React", "Tailwind"],
-      selfImg: aboutPic,
       projImg: pokePic,
     },
     {
@@ -28,7 +27,6 @@ function Projects({}: Props) {
         "Hero Icons",
         "Tailwind",
       ],
-      selfImg: aboutPic,
       projImg: airbnbPic,
     },
     {
