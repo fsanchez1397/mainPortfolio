@@ -39,8 +39,8 @@ function Projects({}: Props) {
         "Tailwind",
         "TypeWriter",
       ],
-      selfImg: "/../public/aboutPic.JPG",
-      projImg: "/../public/portfolioProj.PNG",
+      selfImg: "/../public/aboutPic.jpg",
+      projImg: "/../public/portfolioProj.png",
     },
   ];
   return (
