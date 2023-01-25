@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
-
+import profilePic from "../public/profilePic.jpg";
 type Props = {};
 
 const Hero = ({}: Props) => {
@@ -11,7 +11,7 @@ const Hero = ({}: Props) => {
     words: [
       "Hello, my name is Felipe",
       "<KeepRaisingTheBar />",
-      "Self Taugh Dev",
+      "Self Taught Dev",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -21,8 +21,8 @@ const Hero = ({}: Props) => {
       <BackgroundCircles />
       <div className="relative h-32 w-32 mx-auto ">
         <Image
-          src="/../public/profilePic.jpg"
-          alt="Handsome Face?"
+          src={profilePic}
+          alt="Headshot"
           fill
           priority
           style={{ objectFit: "cover" }}
