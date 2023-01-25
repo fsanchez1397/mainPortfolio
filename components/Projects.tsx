@@ -1,7 +1,10 @@
 import React from "react";
 import ProjCard from "./ProjCard";
 import { motion } from "framer-motion";
-
+import aboutPic from "../public/aboutPic.jpg";
+import airbnbPic from "../public/airbnbProj.png";
+import pokePic from "../public/pokeProj.png";
+import portfolioPic from "../public/portfolioProj.png";
 type Props = {};
 
 function Projects({}: Props) {
@@ -11,8 +14,8 @@ function Projects({}: Props) {
       summary:
         "A website used to register pokemon teams. each team has a trainer and a set amount of pokemon they can add. After submission you can view the teams in the teams page.",
       technologyUsed: ["Redux-toolkit", "React Router", "React", "Tailwind"],
-      selfImg: "/profilePic.jpg",
-      projImg: "/pokeProj.png",
+      selfImg: aboutPic,
+      projImg: pokePic,
     },
     {
       title: "Airbnb Remake",
@@ -25,8 +28,8 @@ function Projects({}: Props) {
         "Hero Icons",
         "Tailwind",
       ],
-      selfImg: "/aboutPic.JPG",
-      projImg: "/airbnbProj.png",
+      selfImg: aboutPic,
+      projImg: airbnbPic,
     },
     {
       title: "Individual Porfolio Website",
@@ -39,8 +42,8 @@ function Projects({}: Props) {
         "Tailwind",
         "TypeWriter",
       ],
-      selfImg: "/../public/aboutPic.jpg",
-      projImg: "/../public/portfolioProj.png",
+
+      projImg: portfolioPic,
     },
   ];
   return (
@@ -61,7 +64,6 @@ function Projects({}: Props) {
               title={project.title}
               summary={project.summary}
               technologyUsed={project.technologyUsed}
-              selfImg={project.selfImg}
               projImg={project.projImg}
             />
           );
