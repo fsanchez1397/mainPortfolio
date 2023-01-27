@@ -48,7 +48,7 @@ function ProjCard({ title, summary, technologyUsed, selfImg, projImg }: Props) {
         <p className="py-5 text-gray-300 uppercase">{summary}</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
           {technologyUsed.map((tech) => {
-            return <li>{tech}</li>;
+            return <li key={tech}>{tech}</li>;
           })}
         </ul>
       </div>

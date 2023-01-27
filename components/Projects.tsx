@@ -57,6 +57,7 @@ function Projects({}: Props) {
         {projects.map((project) => {
           return (
             <ProjCard
+              key={project.title}
               title={project.title}
               summary={project.summary}
               technologyUsed={project.technologyUsed}
