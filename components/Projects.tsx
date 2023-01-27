@@ -11,8 +11,8 @@ function Projects({}: Props) {
       summary:
         "A website used to register pokemon teams. each team has a trainer and a set amount of pokemon they can add. After submission you can view the teams in the teams page.",
       technologyUsed: ["Redux-toolkit", "React Router", "React", "Tailwind"],
-      selfImg: "/../public/profilePic.PNG",
-      projImg: "/../public/pokeProj.PNG",
+      selfImg: "/../public/profilePic.jpg",
+      projImg: "/../public/pokeProj.png",
     },
     {
       title: "Airbnb Remake",
@@ -25,8 +25,8 @@ function Projects({}: Props) {
         "Hero Icons",
         "Tailwind",
       ],
-      selfImg: "/../public/aboutPic.PNG",
-      projImg: "/../public/airbnbProj.PNG",
+      selfImg: "/../public/aboutPic.JPG",
+      projImg: "/../public/airbnbProj.png",
     },
     {
       title: "Individual Porfolio Website",
@@ -40,7 +40,7 @@ function Projects({}: Props) {
         "TypeWriter",
       ],
       selfImg: "/../public/aboutPic.JPG",
-      projImg: "/../public/portfolioProj.PNG",
+      projImg: "/../public/portfolioProj.png",
     },
   ];
   return (
