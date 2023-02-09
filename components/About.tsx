@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import aboutPic from "../public/aboutPic.png";
+import aboutPic from "/aboutPic.png";
 type Props = {};
 
 function About({}: Props) {
