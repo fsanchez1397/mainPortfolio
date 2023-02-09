@@ -11,8 +11,8 @@ function Projects({}: Props) {
       summary:
         "A website used to register pokemon teams. each team has a trainer and a set amount of pokemon they can add. After submission you can view the teams in the teams page.",
       technologyUsed: ["Redux-toolkit", "React Router", "React", "Tailwind"],
-      selfImg: "/../public/profilePic.jpg",
-      projImg: "/../public/pokeProj.png",
+      selfImg: "/profilePic.jpg",
+      projImg: "/pokeProj.png",
     },
     {
       title: "Airbnb Remake",
@@ -25,8 +25,8 @@ function Projects({}: Props) {
         "Hero Icons",
         "Tailwind",
       ],
-      selfImg: "/../public/aboutPic.JPG",
-      projImg: "/../public/airbnbProj.png",
+      selfImg: "/aboutPic.JPG",
+      projImg: "/airbnbProj.png",
     },
     {
       title: "Individual Porfolio Website",
@@ -39,8 +39,8 @@ function Projects({}: Props) {
         "Tailwind",
         "TypeWriter",
       ],
-      selfImg: "/../public/aboutPic.JPG",
-      projImg: "/../public/portfolioProj.png",
+      selfImg: "/aboutPic.JPG",
+      projImg: "/portfolioProj.png",
     },
   ];
   return (
@@ -51,7 +51,7 @@ function Projects({}: Props) {
       className="h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center"
     >
       <h3 className="absolute hidden sm:inline-block top-24  uppercase tracking-[20px] text-gray-400 text-2xl">
-        Experience
+        Project Experience
       </h3>
       <div className="  w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
         {projects.map((project) => {

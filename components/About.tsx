@@ -22,7 +22,7 @@ function About({}: Props) {
         className="relative -mb-10 mt-4 md:mb-0 flex-shrink-0 w-56 h-56  md:w-64 md:h-95 xl:w-[500px] xl:h-[500px]"
       >
         <Image
-          src={"/../public/aboutPic.JPG"}
+          src={"/aboutPic.JPG"}
           alt="Headshot of me"
           fill
           priority

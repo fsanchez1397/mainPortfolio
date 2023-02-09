@@ -23,11 +23,11 @@ const Header = ({}: Props) => {
           fgColor="#b33009"
           bgColor="transparent"
         />
-        <SocialIcon
+        {/* <SocialIcon
           url="https://www.linkedin.com/in/felipe-sanchez-a893bb252/"
           fgColor="#b33009"
           bgColor="transparent"
-        />
+        /> */}
       </motion.div>
       <motion.div
         initial={{ x: 500, opacity: 0, scale: 0.5 }}

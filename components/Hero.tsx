@@ -10,18 +10,20 @@ const Hero = ({}: Props) => {
   const [text, helper] = useTypewriter({
     words: [
       "Hello, my name is Felipe",
-      "<KeepRaisingTheBar />",
+      "<Persistant />",
+      "<Discliplined />",
+      "<Compassionate />",
       "Self Taugh Dev",
     ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 1500,
   });
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <div className="relative h-32 w-32 mx-auto ">
         <Image
-          src="/../public/profilePic.jpg"
+          src="/profilePic.jpg"
           alt="Headshot of me"
           fill
           priority
@@ -43,12 +45,12 @@ const Hero = ({}: Props) => {
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
-          <Link href="#experience">
+          {/* <Link href="#experience">
             <button className="heroButton">Experience</button>
           </Link>
           <Link href="#skills">
             <button className="heroButton">Skills</button>
-          </Link>
+          </Link> */}
           <Link href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
