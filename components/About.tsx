@@ -37,15 +37,21 @@ function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-          quaerat sunt iure possimus quia asperiores error blanditiis quae
-          laborum illo voluptatem aperiam deserunt aliquam praesentium ipsum
-          autem rerum, iste distinctio. Cumque perspiciatis quisquam ducimus
-          velit ullam tempora quia similique nam commodi laborum fugiat maiores
-          repellendus itaque, molestiae inventore, quos ratione nihil? Veniam
-          repellat dolorum voluptatem doloremque et illo sed eius. Quae ea nam
-          consectetur tempora ullam enim dolores dolore? Voluptates esse enim
-          delectus mollitia, quam ad reiciendis quaerat corporis, praesentium
+          I am a proud self taught Front End developer currently Freelancing and
+          looking to find an amazing company to start and grow my career as a
+          Developer. Previously, I was a salesman and although I was always a
+          leader among my peers I knew there was something else out there for me
+          to do. After a friend who is in the industry recommended I get into
+          web development I decided to dedicate my time to learning the
+          fundamentals such as HTML, CSS and Javascript. During this time I
+          realized how much passion I had for the work I was doing and decided
+          to go full time in it. Throughout this time I would attend meetup
+          groups, lecture others on concepts I had learned, and build projects
+          along the way. Being self taught I have learned the value of
+          discipline and collaboration. I constantly seek to improve my skills
+          and now I am enthusiastic about the opportunity to work with other
+          developers and expand my skill set. Below you can see the tools I have
+          used along the way.
         </p>
       </div>
     </motion.div>

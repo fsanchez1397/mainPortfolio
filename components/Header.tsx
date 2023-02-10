@@ -39,6 +39,7 @@ const Header = ({}: Props) => {
           network="email"
           fgColor="#b33009"
           bgColor="transparent"
+          // onClick={} open contact form component
         />
         <p className="uppercase hidden md:inline-flex text-sm text-[#af5c5c]">
           Get in touch
