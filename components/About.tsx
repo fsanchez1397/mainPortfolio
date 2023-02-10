@@ -37,8 +37,8 @@ function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          I'm a Front End developer currently Freelancing, looking to grow my
-          career. I started coding after a friend in the industry show'd me the
+          I am a Front End developer currently Freelancing, looking to grow my
+          career. I started coding after a friend in the industry showed me the
           oppurtunities available. I then dedicated myself to learning the
           fundamentals of front end development. During this I realized the
           passion I had for the work I was doing and decided to go full time. As
