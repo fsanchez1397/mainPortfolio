@@ -9,11 +9,13 @@ const Hero = ({}: Props) => {
   const [text, helper] = useTypewriter({
     words: [
       "Hello, my name is Felipe",
-      "<KeepRaisingTheBar />",
+      "<Persistant  />",
+      "<Discliplined />",
+      "<Compassionate />",
       "Self Taught Dev",
     ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 1750,
   });
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
@@ -33,21 +35,21 @@ const Hero = ({}: Props) => {
         <h2 className="text-sm uppercase tracking-[15px] text-gray-800 pb-2">
           Software Developer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-3xl lg:text-6xl font-semibold px-10 h-20">
           <span> {text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
         {/*Page Navigation */}
         <div className="pt-5">
           <Link href="#about">
-            <button className="heroButton">About</button>
+            <button className="heroButton">About Me</button>
           </Link>
-          <Link href="#experience">
+          {/* <Link href="#experience">
             <button className="heroButton">Experience</button>
           </Link>
           <Link href="#skills">
             <button className="heroButton">Skills</button>
-          </Link>
+          </Link> */}
           <Link href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
