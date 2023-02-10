@@ -29,7 +29,7 @@ const Header = ({}: Props) => {
           bgColor="transparent"
         /> */}
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial={{ x: 500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
@@ -44,7 +44,7 @@ const Header = ({}: Props) => {
         <p className="uppercase hidden md:inline-flex text-sm text-[#af5c5c]">
           Get in touch
         </p>
-      </motion.div>
+      </motion.div> */}
     </header>
   );
 };
