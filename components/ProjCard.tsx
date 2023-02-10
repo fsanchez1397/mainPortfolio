@@ -13,7 +13,7 @@ type Props = {
 function ProjCard({ title, summary, technologyUsed, projImg, url }: Props) {
   console.log(projImg);
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 transition-opacity duration-200 overflow-hidden">
       {/* CARD PROJ IMAGE */}
       <motion.div
         initial={{ y: -100 }}

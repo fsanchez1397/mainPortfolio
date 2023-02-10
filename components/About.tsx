@@ -37,20 +37,16 @@ function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          I am a proud self taught Front End developer currently Freelancing and
-          looking to find an amazing company to start and grow my career as a
-          Developer. Previously, I was a salesman and although I was always a
-          leader among my peers I knew there was something else out there for me
-          to do. After a friend who is in the industry recommended I get into
-          web development I decided to dedicate my time to learning the
-          fundamentals such as HTML, CSS and Javascript. During this time I
-          realized how much passion I had for the work I was doing and decided
-          to go full time in it. Throughout this time I would attend meetup
-          groups, lecture others on concepts I had learned, and build projects
-          along the way. Being self taught I have learned the value of
+          I'm a Front End developer currently Freelancing, looking to grow my
+          career. I started coding after a friend in the industry show'd me the
+          oppurtunities available. I then dedicated myself to learning the
+          fundamentals of front end development. During this I realized the
+          passion I had for the work I was doing and decided to go full time. As
+          I learned I attended meetup groups, lectured others, and built
+          projects along the way. Through coding I learned the values of
           discipline and collaboration. I constantly seek to improve my skills
-          and now I am enthusiastic about the opportunity to work with other
-          developers and expand my skill set. Below you can see the tools I have
+          and am enthusiastic about the opportunity to work with other
+          developers to expand my skill set. Below you can see the tools I have
           used along the way.
         </p>
       </div>
