@@ -34,7 +34,7 @@ function EmailForm() {
         <div className="m-1 flex justify-between">
           <span>Your Email: </span>
           <input
-            className=" px-2 border-2 border-red-600"
+            className=" px-2 border-2 border-red-600 text-black"
             name="user_email"
             type="text"
             placeholder="ex@gmail.com"
@@ -47,7 +47,7 @@ function EmailForm() {
             name="subject"
             type="text"
             placeholder="Company Name"
-            className="px-2 border-2 border-red-600"
+            className="px-2 border-2 border-red-600 text-black"
           />
         </div>
         <div className="m-1 flex justify-between">
@@ -57,7 +57,7 @@ function EmailForm() {
             cols="24"
             rows="5"
             placeholder="What do you need help with?"
-            className=" px-2 border-2 border-red-600"
+            className=" px-2 border-2 border-red-600 text-black"
             required
           ></textarea>
         </div>
