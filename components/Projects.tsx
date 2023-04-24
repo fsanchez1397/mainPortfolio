@@ -14,6 +14,15 @@ function Projects({}: Props) {
       url: "https://poketeams.vercel.app/addteam",
     },
     {
+      title: "Marli New York",
+      summary:
+        "Currently managing the main website of one of our companies largest clients. Marli is a luxury jewelry website that is built using Shopify. Notable tasks included updating theme to Showcase version 6.0, creating new landing pages, installing Google Analytics 4 and updating the homepage",
+      technologyUsed: ["Shopify", "Image Compression", "CSS"],
+
+      projImg: "/marli.JPG",
+      url: "https://marlinewyork.com/",
+    },
+    {
       title: "Airbnb Remake",
       summary:
         "Clone of Airbnb website. Used and implemented various resources to create a functionally similair website to Airbnb. Opens up a map with location of houses near search area.",
@@ -41,6 +50,15 @@ function Projects({}: Props) {
 
       projImg: "/portfolioProj.PNG",
       url: "https://main-portfolio-xnex.vercel.app/",
+    },
+    {
+      title: "Capital Tuluum",
+      summary:
+        "One of my early projcets. Capital Tuluum was in hiatus as the old developer left the company. I wac able to learn webflows CMS and its visual editor. I implemented many CSS changes as the site had many bugs. After going through the site we were able to succesfuly push it live while still meeting our deadline!",
+      technologyUsed: ["Webflow", "CMS", "CSS"],
+
+      projImg: "/tuluum.JPG",
+      url: "https://www.capitaltuluum.com/",
     },
   ];
   return (
