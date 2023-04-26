@@ -8,7 +8,7 @@ function Projects({}: Props) {
     {
       title: "Pokemon Team Tracker",
       summary:
-        "A website used to register pokemon teams. each team has a trainer and a set amount of pokemon they can add. After submission you can view the teams in the teams page.",
+        "A website used to register pokemon teams. Each team has a trainer and a set amount of pokemon they can add. After submission you can view the teams in the teams page.",
       technologyUsed: ["Redux-toolkit", "React Router", "React", "Tailwind"],
       projImg: "/pokeProj.PNG",
       url: "https://poketeams.vercel.app/addteam",
@@ -16,7 +16,7 @@ function Projects({}: Props) {
     {
       title: "Marli New York",
       summary:
-        "Currently managing the main website of one of our companies largest clients. Marli is a luxury jewelry website that is built using Shopify. Notable tasks included updating theme to Showcase version 6.0, creating new landing pages, installing Google Analytics 4 and updating the homepage",
+        "Currently managing the main website of one of our companies largest clients. Marli is a luxury jewelry website that is built using Shopify. Notable tasks included updating theme to Showcase version 6.0, creating new landing pages, migrating to Google Analytics 4 and updating the homepage",
       technologyUsed: ["Shopify", "Image Compression", "CSS"],
 
       projImg: "/marli.JPG",
