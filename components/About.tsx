@@ -19,7 +19,7 @@ function About({}: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        className="relative -mb-10 mt-4 md:mb-0 flex-shrink-0 w-56 h-56  md:w-64 md:h-95 xl:w-[500px] xl:h-[500px]"
+        className="relative -mb-10 mt-4 md:mb-0 flex-shrink-0 w-48 h-48  md:w-64 md:h-95 xl:w-[500px] xl:h-[500px]"
       >
         <Image
           src={"/aboutPic.jpg"}
@@ -37,17 +37,12 @@ function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          I am a Front End developer currently Freelancing, looking to grow my
-          career. I started coding after a friend in the industry showed me the
-          oppurtunities available. I then dedicated myself to learning the
-          fundamentals of front end development. During this I realized the
-          passion I had for the work I was doing and decided to go full time. As
-          I learned I attended meetup groups, lectured others, and built
-          projects along the way. Through coding I learned the values of
-          discipline and collaboration. I constantly seek to improve my skills
-          and am enthusiastic about the opportunity to work with other
-          developers to expand my skill set. Below you can see the tools I have
-          used along the way.
+          I am a Front End developer currently working the primary Web Developer
+          at a luxury marketing agency. I have experience working with many
+          clients and building out websties that exceed there needs! I
+          constantly seek to improve my skills and am enthusiastic about the
+          opportunity to work with other developers to expand my skill set.
+          Below you can see the tools I have used along the way.
         </p>
       </div>
     </motion.div>
