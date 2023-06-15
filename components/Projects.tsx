@@ -34,7 +34,7 @@ function Projects({}: Props) {
         "Tailwind",
       ],
       projImg: "/airbnbProj.PNG",
-      url: "https://airbnb-clone-psi-dun.vercel.app/",
+      url: "https://felipe-airbnb-clone.vercel.app/",
     },
     {
       title: "Individual Porfolio Website",
@@ -49,7 +49,7 @@ function Projects({}: Props) {
       ],
 
       projImg: "/portfolioProj.PNG",
-      url: "https://main-portfolio-xnex.vercel.app/",
+      url: "https://felipe-sanchez-portfolio.vercel.app/",
     },
     {
       title: "Capital Tuluum",
