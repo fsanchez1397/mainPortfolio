@@ -17,7 +17,7 @@ const Header = ({}: Props) => {
       >
         {/*SocialIcons  */}
         <SocialIcon
-          url="https://www.linkedin.com/in/felipe-sanchez-a893bb252/"
+          url="https://www.linkedin.com/in/felipe-s-a893bb252/"
           fgColor="#b33009"
           bgColor="transparent"
         />
