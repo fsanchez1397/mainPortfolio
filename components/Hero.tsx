@@ -9,11 +9,11 @@ type Props = {};
 const Hero = ({}: Props) => {
   const [text, helper] = useTypewriter({
     words: [
-      "Hello, my name is Felipe",
-      "<Persistant />",
-      "<Discliplined />",
-      "<Compassionate />",
-      "Self Taugh Dev",
+      "<Fullstack Developer />",
+      "<React />",
+      "<TypeScript />",
+      "<WordPress />",
+      "<Shopify />",
     ],
     loop: true,
     delaySpeed: 1500,
@@ -36,10 +36,13 @@ const Hero = ({}: Props) => {
         <h2 className="text-sm uppercase tracking-[15px] text-gray-800 pb-2">
           Software Developer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
-          <span> {text}</span>
-          <Cursor cursorColor="#F7AB0A" />
-        </h1>
+        <div className="min-h-[90px]">
+          <h1 className="text-4xl lg:text-6xl font-semibold px-10">
+            <span> {text}</span>
+            <Cursor cursorColor="#F7AB0A" />
+          </h1>
+        </div>
+
         {/*Page Navigation */}
         <div className="pt-5">
           <Link href="#about">
