@@ -2,11 +2,9 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import EmailForm from "./EmailForm";
 type Props = {};
 
 const Header = ({}: Props) => {
-  const [showEmailForm, setShowEmailForm] = useState(false);
   return (
     <header className="sticky p-5 top-0 flex items-start justify-between max-w-7xl mx-auto xl:items-center z-50">
       <motion.div
@@ -42,15 +40,7 @@ const Header = ({}: Props) => {
           network="email"
           fgColor="#b33009"
           bgColor="transparent"
-          onClick={() => {
-            setShowEmailForm(!showEmailForm);
-          }}
         />
-
-        <p className="uppercase hidden md:inline-flex text-sm text-[#af5c5c]">
-          Get in touch
-        </p>
-        {showEmailForm ? <EmailForm /> : null}
       </motion.div>
     </header>
   );

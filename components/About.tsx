@@ -31,12 +31,8 @@ function About({}: Props) {
         />
       </motion.div>
       <div className="space-y-10 px-0 md:px-10 ">
-        <h4 className="text-3xl font-semibold">
-          Here is a{" "}
-          <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
-          background
-        </h4>
-        <p className="text-base">
+        <h4 className="text-3xl font-semibold text-[#b33009]">About Me</h4>
+        <p className="text-sm md:text-lg">
           I am a Front End developer currently working the primary Web Developer
           at a luxury marketing agency. I have experience working with many
           clients and building out websties that exceed there needs! I

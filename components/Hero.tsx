@@ -31,19 +31,21 @@ const Hero = ({}: Props) => {
           className="rounded-full"
         />
       </div>
-      <div className="z-10">
+      <div className="z-10 max-w-sm md:max-w-md">
         {/* SelfTypingText */}
-        <h2 className="text-sm uppercase tracking-[15px] text-gray-800 pb-2">
-          Software Developer
+        <h2 className="text-sm uppercase tracking-[8px] text-[#b33009] pb-2">
+          Software Engineer
         </h2>
-        <h1 className="text-3xl lg:text-6xl font-semibold px-10 h-20">
-          <span> {text}</span>
-          <Cursor cursorColor="#F7AB0A" />
+        <h1 className="text-3xl lg:text-6xl font-semibold px-4 h-20 flex flex-col justify-center">
+          <div>
+            <span> {text}</span>
+            <Cursor cursorColor="#F7AB0A" />
+          </div>
         </h1>
         {/*Page Navigation */}
         <div className="pt-5">
           <Link href="#about">
-            <button className="heroButton">About Me</button>
+            <button className="heroButton text-[#b33009]">About Me</button>
           </Link>
           {/* <Link href="#experience">
             <button className="heroButton">Experience</button>
@@ -52,7 +54,7 @@ const Hero = ({}: Props) => {
             <button className="heroButton">Skills</button>
           </Link> */}
           <Link href="#projects">
-            <button className="heroButton">Projects</button>
+            <button className="heroButton text-[#b33009]">Projects</button>
           </Link>
         </div>
       </div>
