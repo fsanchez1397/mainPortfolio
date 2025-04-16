@@ -8,11 +8,12 @@ type Props = {};
 const Hero = ({}: Props) => {
   const [text, helper] = useTypewriter({
     words: [
-      "Hello, my name is Felipe",
-      "<Persistant  />",
-      "<Discliplined />",
-      "<Compassionate />",
-      "Self Taught Dev",
+      "<Fullstack Developer />",
+      "<React />",
+      "<Next.js />",
+      "<TypeScript />",
+      "<WordPress />",
+      "<Shopify />",
     ],
     loop: true,
     delaySpeed: 1750,
