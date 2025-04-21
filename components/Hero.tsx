@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
+import Header from "./global/Header";
+
 type Props = {};
 
 const Hero = ({}: Props) => {
@@ -19,46 +21,67 @@ const Hero = ({}: Props) => {
     delaySpeed: 1750,
   });
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
-      <BackgroundCircles />
-      <div className="relative h-32 w-32 mx-auto ">
-        <Image
-          src={"/profilePic.jpg"}
-          alt="Headshot"
-          fill
-          priority
-          style={{ objectFit: "cover" }}
-          className="rounded-full"
-        />
-      </div>
-      <div className="z-10 max-w-sm md:max-w-md">
-        {/* SelfTypingText */}
-        <h2 className="text-sm uppercase tracking-[8px] text-[#b33009] pb-2">
-          Software Engineer
+    <>
+      <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden relative">
+        <h2
+          className="text-[32px] uppercase tracking-[8px] text-black pb-2 p-5 z-50 absolute top-0"
+          data-aos="fade-up"
+        >
+          Felipe Sanchez
         </h2>
-        <h1 className="text-3xl lg:text-6xl font-semibold px-4 h-20 flex flex-col justify-center">
+
+        <Header text="Software Engineer" />
+        {/* <h2
+          className="text-[32px] uppercase tracking-[8px] text-[#b33009] pb-2"
+          data-aos="fade-up"
+        >
+          Software Engineer
+        </h2> */}
+        <div className="relative h-40 w-40 mx-auto ">
+          <Image
+            src={"/profilePic.jpeg"}
+            alt="Headshot"
+            fill
+            priority
+            style={{ objectFit: "cover" }}
+            className="rounded-full border-black border-4"
+          />
+        </div>
+        <h1 className="text-3xl lg:text-6xl font-semibold text-[#b33009] px-4 h-20 flex flex-col justify-center">
           <div>
             <span> {text}</span>
             <Cursor cursorColor="#F7AB0A" />
           </div>
         </h1>
-        {/*Page Navigation */}
-        <div className="pt-5">
-          <Link href="#about">
-            <button className="heroButton text-[#b33009]">About Me</button>
-          </Link>
-          {/* <Link href="#experience">
-            <button className="heroButton">Experience</button>
-          </Link>
-          <Link href="#skills">
-            <button className="heroButton">Skills</button>
-          </Link> */}
-          <Link href="#projects">
-            <button className="heroButton text-[#b33009]">Projects</button>
-          </Link>
+        <div className="z-10 absolute bottom-0 w-full p-5" data-aos="fade-up">
+          {/*Page Navigation */}
+          <div className="flex justify-center gap-4">
+            <Link
+              href="#about"
+              className="w-1/3 min-w-[160px] md:min-w-[180px]"
+            >
+              <button className="heroButton text-[#b33009] w-full p-3 hover:border-[#b33009] hover:bg-[#b33009] hover:text-black">
+                About Me
+              </button>
+            </Link>
+            {/* <Link href="#experience">
+              <button className="heroButton">Experience</button>
+              </Link>
+              <Link href="#skills">
+              <button className="heroButton">Skills</button>
+              </Link> */}
+            <Link
+              href="#projects"
+              className="w-1/3 min-w-[160px] md:min-w-[180px]"
+            >
+              <button className="heroButton text-[#b33009] w-full p-3 hover:border-[#b33009] hover:bg-[#b33009] hover:text-black">
+                Projects
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

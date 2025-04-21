@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { motion } from "framer-motion";
 
 type Props = {
   title: string;
@@ -15,21 +14,15 @@ function ProjCard({ title, summary, technologyUsed, projImg, url }: Props) {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[320px] md:w-[600px] xl:w-[900px] h-[630px] md:h-[800px]snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 transition-opacity duration-200 overflow-hidden">
       {/* CARD PROJ IMAGE */}
-      <motion.div
-        initial={{ y: -100 }}
-        transition={{ duration: 1.2 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className="relative w-32 h-32 "
-      >
-        <Image
-          src={projImg}
-          alt="Project FrontEnd"
-          fill
-          style={{ objectFit: "cover" }}
-          className="rounded-full hover:scale-110"
-        />
-      </motion.div>
+
+      <Image
+        src={projImg}
+        alt="Project FrontEnd"
+        fill
+        style={{ objectFit: "cover" }}
+        className="rounded-full hover:scale-110"
+      />
+
       {/* CARD TITLE */}
       <div className="px-0 md:px-10">
         <h4 className="text-2xl font-light">{title}</h4>

@@ -1,6 +1,5 @@
 import React from "react";
 import ProjCard from "./ProjCard";
-import { motion } from "framer-motion";
 type Props = {};
 
 function Projects({}: Props) {
@@ -50,12 +49,7 @@ function Projects({}: Props) {
     },
   ];
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
-      className="h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-8 justify-evenly mx-auto items-center"
-    >
+    <>
       <h3 className="absolute hidden sm:inline-block top-24  uppercase tracking-[20px] text-gray-400 text-2xl">
         Project Experience
       </h3>
@@ -73,7 +67,7 @@ function Projects({}: Props) {
           );
         })}
       </div>
-    </motion.div>
+    </>
   );
 }
 
