@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@fontsource/inter": "^5.2.5",
+    "@fontsource/space-grotesk": "^5.2.6",
     "@next/font": "13.1.2",
     "@splinetool/react-spline": "^4.0.0",
     "@types/node": "18.11.18",

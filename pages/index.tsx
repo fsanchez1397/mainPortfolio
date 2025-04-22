@@ -4,24 +4,34 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Splice from "@/components/Splice/Splice";
 import Head from "next/head";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import "@fontsource/inter"; // Defaults to weight 400
+import "@fontsource/space-grotesk";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="">
+    <>
       <Header />
-      <section className="snap-start" id="hero">
-        <Hero />
-      </section>
-      {/* <section className="relative">
-        <Splice />
-      </section> */}
-      <section id="about" className="snap-center">
-        <About />
-      </section>
+      <div>
+        <section className="snap-start" id="hero">
+          <Hero />
+        </section>
+        {/* <section className="relative">
+      <Splice />
+    </section> */}
+        <section id="about" className="snap-center">
+          <About />
+        </section>
 
-      {/* <section id="projects" className="snap-center">
-        <Projects />
-      </section>  */}
-    </div>
+        {/* <section id="projects" className="snap-center">
+      <Projects />
+    </section>  */}
+      </div>
+    </>
   );
 }

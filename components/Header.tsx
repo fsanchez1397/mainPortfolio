@@ -1,13 +1,17 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { Hamburger } from "./global/Hamburger";
+import { useState } from "react";
 type Props = {};
 
 const Header = ({}: Props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="sticky p-5 top-0 flex items-start justify-between max-w-7xl mx-auto xl:items-center z-50">
-      <h1 className="uppercase text-xl">Felipe Sanchez Portfolio</h1>
-      <Hamburger />
+      <h1 className="uppercase text-xl z-50">Portfolio</h1>
+      <Hamburger setIsOpen={setIsOpen} isOpen={isOpen} />
+
       {/*SocialIcons  */}
       {/* <SocialIcon
         url="https://www.linkedin.com/in/felipe-s-a893bb252/"

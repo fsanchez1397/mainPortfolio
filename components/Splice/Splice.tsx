@@ -6,9 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Splice() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div className="h-[100vh]  bg-black">
       <div className="h-full">

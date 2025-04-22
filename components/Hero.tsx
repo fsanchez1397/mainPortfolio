@@ -22,11 +22,12 @@ const Hero = ({}: Props) => {
   });
   return (
     <>
-      <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden relative">
-        <h2
-          className="text-[32px] uppercase tracking-[8px] text-black pb-2 p-5 z-50 absolute top-0"
-          data-aos="fade-up"
-        >
+      <div
+        className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden relative"
+        data-aos="fade-in"
+        data-aos-duration="1500"
+      >
+        <h2 className="text-[32px] uppercase tracking-[8px] text-black pb-2 p-5  absolute top-0 font-spaceGrotesk">
           Felipe Sanchez
         </h2>
 
@@ -37,7 +38,7 @@ const Hero = ({}: Props) => {
         >
           Software Engineer
         </h2> */}
-        <div className="relative h-40 w-40 mx-auto ">
+        <div className="relative h-40 w-40 mx-auto">
           <Image
             src={"/profilePic.jpeg"}
             alt="Headshot"
