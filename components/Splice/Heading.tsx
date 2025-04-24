@@ -1,7 +1,7 @@
 export default function Heading() {
   return (
     <div className="flex flex-col justify-center h-full">
-      <h1 className="z-20 relative text-white uppercase text-center text-3xl">
+      <h1 className="z-20 relative text-white uppercase text-center text-3xl font-spaceGrotesk">
         About Me
       </h1>
       <p className="text-sm md:text-lg z-20 text-white" data-aos="fade-left">

@@ -24,7 +24,7 @@ export const Hamburger = ({ setIsOpen, isOpen }: Props) => {
             isOpen ? "-rotate-45 top-1/2 translate-y-[-50%]" : "top-[20px]"
           } z-50`}
         />
-        {isOpen && <Menu setIsOpen={setIsOpen} isOpen={isOpen} />}
+        <Menu setIsOpen={setIsOpen} isOpen={isOpen} />
       </div>
     </>
   );

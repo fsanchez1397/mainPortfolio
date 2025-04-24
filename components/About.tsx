@@ -1,21 +1,30 @@
 import React from "react";
 
-import { Text } from "./global/Text";
+import { Cta } from "./global/Cta";
+import { DEV_URL } from "./utils/constants";
 type Props = {};
 
 function About({}: Props) {
   return (
     <>
-      <div className="text-left p-7">
-        <p className="text-3xl text-black uppercase font-extrabold">Hey, I'm</p>
-        <p className="text-3xl  text-[#b33009] uppercase font-extrabold">
+      <h2 className="text-3xl  text-orange-500 uppercase font-extrabold font-spaceGrotesk mb-8">
+        About The Author
+      </h2>
+      <div className="text-left pt-0">
+        <p className="text-xl text-white uppercase font-extrabold font-inter">
+          Hey, I'm
+        </p>
+        <p className="text-3xl  text-orange-500 uppercase font-extrabold font-spaceGrotesk">
           Felipe Sanchez.
         </p>
-        <p className="text-3xl text-black uppercase font-extrabold">
-          Here you can check out what I've worked on. I build things I ❤️
+        <p className="text-xl text-white uppercase font-extrabold font-inter">
+          I’m a Fullstack Software Engineer with 3+ years of experience crafting
+          modern web apps. I love clean design, solid code, and bringing ideas
+          to life. Take a look at my projects — hope you enjoy them as much as I
+          enjoyed building them. ❤️
         </p>
 
-        <Text text="I am a software engineer with a passion for creating innovative solutions that make a difference. I have experience in full-stack development, specializing in React, Next.js, and TypeScript. I am always eager to learn new technologies and improve my skills." />
+        <Cta text={"View Projects"} url={`${DEV_URL}#projects`} />
       </div>
     </>
   );
