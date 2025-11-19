@@ -23,7 +23,7 @@ function About({}: Props) {
       >
         <Image
           src={"/aboutPic.jpg"}
-          alt="Headshot"
+          alt="Handsome man looking at the camera"
           fill
           priority
           style={{ objectFit: "cover" }}
