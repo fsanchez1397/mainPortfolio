@@ -16,7 +16,7 @@ function Projects({}: Props) {
     {
       title: "Facial Plastics",
       summary:
-        "Facial Plastics is a website that is built using WordPress. It is a beautiful and responsive website that is used to showcase the services and products of the company.",
+        "Facial Plastics is a beautiful and responsive website that is used to showcase the services and products of the company.",
       technologyUsed: ["WordPress", "CSS", "JavaScript"],
       projImg: "/facialPlastics.jpg",
       url: "https://facialplasticsbh.com/",
@@ -24,7 +24,7 @@ function Projects({}: Props) {
     {
       title: "Marli New York",
       summary:
-        "Marli is a luxury jewelry website that is built using Shopify. Notable tasks included updating theme to Showcase version 6.0, creating new landing pages, migrating to Google Analytics 4 and updating the homepage.",
+        "Marli is a luxury jewelry website that is built using Shopify. Notable tasks included updating theme to Showcase version 6.0, creating new landing pages and migrating to Google Analytics 4.",
       technologyUsed: ["Shopify Platform", "Javascript", "CSS"],
 
       projImg: "/marli.JPG",
@@ -33,7 +33,7 @@ function Projects({}: Props) {
     {
       title: "BLKSWN",
       summary:
-        "I handled the development from the ground up for this project. I was responsible for the design, development, and deployment of the website. I used the Shopify and Liquid platform to build the website.",
+        "I handled the development from the ground up for this project. I was responsible for the design, development, and deployment of the website.",
       technologyUsed: ["Shopify", "Liquid", "JavaScript"],
 
       projImg: "/blkswn.jpg",
@@ -51,7 +51,7 @@ function Projects({}: Props) {
     {
       title: "Porfolio Website",
       summary:
-        "Main Website showcasing my work. Implents a SPA layout using the newest software development tools currentyl available such as Next & Tailwind!",
+        "Main Website showcasing my work. Built with Next.js & Tailwind!",
       technologyUsed: ["Next.js", "Framer Motion", "Tailwind", "Redux"],
 
       projImg: "/portfolioProj.PNG",
