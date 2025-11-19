@@ -10,7 +10,7 @@ const Hero = ({}: Props) => {
     words: [
       "<Fullstack Developer />",
       "<React />",
-      "<Next.js />",
+      "<Next />",
       "<TypeScript />",
       "<WordPress />",
       "<Shopify />",
