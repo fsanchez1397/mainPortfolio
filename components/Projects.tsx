@@ -18,7 +18,7 @@ function Projects({}: Props) {
       summary:
         "Facial Plastics is a website that is built using WordPress. It is a beautiful and responsive website that is used to showcase the services and products of the company.",
       technologyUsed: ["WordPress", "CSS", "JavaScript"],
-      projImg: "/facialPlastics.JPG",
+      projImg: "/facialPlastics.jpg",
       url: "https://facialplasticsbh.com/",
     },
     {
@@ -36,7 +36,7 @@ function Projects({}: Props) {
         "I handled the development from the ground up for this project. I was responsible for the design, development, and deployment of the website. I used the Shopify and Liquid platform to build the website.",
       technologyUsed: ["Shopify", "Liquid", "JavaScript"],
 
-      projImg: "/blkswn.JPG",
+      projImg: "/blkswn.jpg",
       url: "https://blkswn.com/",
     },
     {
